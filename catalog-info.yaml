@@ -1,11 +1,35 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: service-with-docs
-  description: The place to be, for great artists
-  annotations:
-    backstage.io/techdocs-ref: dir:.
+  name: Devops-Testing
+  description: |
+    Backstage Cleartax developer portal that puts the developer experience first.
+  links:
+    - title: Grafana
+      url: https://grafana-prod.internal.cleartax.co/
+    - title: Documentation
+      url: https://outline.internal.cleartax.co/
+    - title: Pagerduty
+      url: https://ct-zurg.pagerduty.com/
+    - title: coralogix
+      url: https://cleartaxtech.app.coralogix.in/#/query-new/logs?id=6Mji0kawDL3qjNQfhxn4M&page=0
+    - title: Slack Chat
+      url: https://retool.internal.cleartax.co/
+    - title: Jira
+      url: https://cleartaxtech.atlassian.net/
 spec:
-  type: service
+  type: library
+  owner: devops
   lifecycle: production
-  owner: artist-relations-team
+  subcomponentOf: Cleartax-infra # Link to the parent component
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cleartax-infra
+  description: This repo has been managed by devops-infra team
+spec:
+  type: repo
+  owner: devops
+  lifecycle: 3 years
+
