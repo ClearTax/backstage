@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-    name: github-actions
+    name: test-ci
     description: A Python Library
     annotations:
         backstage.io/techdocs-ref: dir:.
-        github.com/project-slug: shashank/backstage
+        github.com/project-slug: ClearTax/backstage
         backstage.io/kubernetes-id: plugin-k3
     tags:
         - python
