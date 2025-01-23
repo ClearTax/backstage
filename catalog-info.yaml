@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Devops-Testing
+  name: Devops
   description: |
     Backstage Cleartax developer portal that puts the developer experience first.
   links:
