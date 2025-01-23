@@ -5,7 +5,7 @@ metadata:
     description: A Python Library
     annotations:
         backstage.io/techdocs-ref: dir:.
-        github.com/project-slug: Nikhilrage/backstage
+        github.com/project-slug: shashank/backstage
         backstage.io/kubernetes-id: plugin-k3
     tags:
         - python
