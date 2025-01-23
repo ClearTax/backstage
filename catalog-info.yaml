@@ -13,7 +13,7 @@ metadata:
       url: https://ct-zurg.pagerduty.com/
     - title: coralogix
       url: https://cleartaxtech.app.coralogix.in/#/query-new/logs?id=6Mji0kawDL3qjNQfhxn4M&page=0
-    - title: Slack Chat
+    - title: retool
       url: https://retool.internal.cleartax.co/
     - title: Jira
       url: https://cleartaxtech.atlassian.net/
