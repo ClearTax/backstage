@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: marketing-tech
+  description: Product domain for marketing-tech
+spec:
+  owner: devops
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cfc-ap
+  description: Product domain for cfc-ap
+spec:
+  owner: Mehul Marakana
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cfc-ingestion
+  description: Product domain for cfc-ingestion
+spec:
+  owner: devops
