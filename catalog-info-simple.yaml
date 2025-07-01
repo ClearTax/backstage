@@ -2,33 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sample-service
-  description: Sample service component
+  description: A simple test component for Backstage
 spec:
   type: service
   lifecycle: production
-  owner: team:devops
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: sample-api
-  description: Sample API entity
-spec:
-  type: openapi
-  lifecycle: production
-  owner: team:devops
-  definition:
-    $text: |
-      openapi: 3.0.0
-      info:
-        title: Sample API
-        version: 1.0.0
-      paths: {}
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: marketing-tech
-  description: Product domain for marketing tech
-spec:
-  owner: team:devops
+  owner: team: devops
