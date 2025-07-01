@@ -1,0 +1,11 @@
+# Your existing Group entities here
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devops-service
+  description: A service maintained by the devops team
+spec:
+  type: service
+  lifecycle: production
+  owner: team:devops
