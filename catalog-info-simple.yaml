@@ -1,23 +1,34 @@
 apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-service
+  description: Sample service component
+spec:
+  type: service
+  lifecycle: production
+  owner: team:devops
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sample-api
+  description: Sample API entity
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team:devops
+  definition:
+    $text: |
+      openapi: 3.0.0
+      info:
+        title: Sample API
+        version: 1.0.0
+      paths: {}
+---
+apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: marketing-tech
-  description: Product domain for marketing-tech
+  description: Product domain for marketing tech
 spec:
-  owner: devops
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: cfc-ap
-  description: Product domain for cfc-ap
-spec:
-  owner: Mehul Marakana
----
-apiVersion: backstage.io/v1alpha1
-kind: Domain
-metadata:
-  name: cfc-ingestion
-  description: Product domain for cfc-ingestion
-spec:
-  owner: devops
+  owner: team:devops
