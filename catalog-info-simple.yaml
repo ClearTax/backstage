@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: quickstart-service
-  description: Quick simple service
-spec:
-  type: service
-  lifecycle: production
-  owner: "team: devops"
