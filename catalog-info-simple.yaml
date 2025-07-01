@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample-service
-  description: A simple test component for Backstage
+  name: quickstart-service
+  description: Quick simple service
 spec:
   type: service
   lifecycle: production
