@@ -1,0 +1,107 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devops
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: devops
+    email: jain.nitin@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Mehul Marakana
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: Mehul Marakana
+    email: devops@cleartax.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Aneesh.Goel
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: Aneesh.Goel
+    email: aneesh.goel@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Lavish.Agrawal
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: Lavish.Agrawal
+    email: lavish.agrawal@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: aniket.agnihotri
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: aniket.agnihotri
+    email: aniket.agnihotri@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dheeraj.vadlani
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: dheeraj.vadlani
+    email: dheeraj.vadlani@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: satwik.gokina
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: satwik.gokina
+    email: satwik.gokina@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: abhilash.pareek@clear.in
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: abhilash.pareek@clear.in
+    email: abhilash.pareek@clear.in
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ravikumar.rajagopalan
+  description: Team responsible for maintaining services
+spec:
+  type: team
+  profile:
+    displayName: ravikumar.rajagopalan
+    email: ravikumar.rajagopalan@clear.in
+  children: []
