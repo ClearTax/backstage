@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
-  name: groups-location
-  description: Location for group entities
+  name: my-service
+  description: My internal service
+  tags:
+    - internal
 spec:
-  type: url
-  target: https://raw.githubusercontent.com/ClearTax/backstage/master/catalog-info.yaml
-  filter:
-    kind:
-      - Group
+  type: service
+  lifecycle: production
+  owner: user:default/guest
