@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: devops-groups
-  description: Group definitions for DevOps
+  name: imported-catalog
 spec:
   targets:
-    - ./group-devops.yaml
+    - https://raw.githubusercontent.com/ClearTax/backstage/refs/heads/master/new-catelog-files.yaml
