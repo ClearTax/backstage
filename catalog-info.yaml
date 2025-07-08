@@ -1,9 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: my-service
-  description: Example service
+  name: devops-groups
+  description: Group definitions for DevOps
 spec:
-  type: service
-  owner: devops
-  lifecycle: production
+  targets:
+    - ./group-devops.yaml
