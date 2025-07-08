@@ -1,0 +1,16 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in the repo.
+
+*  @pranesh-vittal @prajithp13 @vinaygupta7343 @arunclear @akshatkum @harish944072 @ArkeshRaju @biswa-ct @gowtham-ct @ShashankJannu @prakclear @rajesh-clear
+
+/eks/*  @pranesh-vittal @prajithp13 @vinaygupta7343 @arunclear @akshatkum @harish944072
+
+/non-prod/* @pranesh-vittal @prajithp13 @vinaygupta7343 @arunclear @akshatkum @harish944072 @ShashankJannu @ArkeshRaju @biswa-ct @gowtham-ct @rajesh-clear
+
+/prod/* @pranesh-vittal @prajithp13 @vinaygupta7343 @arunclear @akshatkum @harish944072 @ShashankJannu @ArkeshRaju @biswa-ct @gowtham-ct @rajesh-clear
+
+/irp/mumbai/prod/* @pranesh-vittal @prajithp13 @vinaygupta7343 @arunclear @akshatkum @harish944072 @ShashankJannu @ArkeshRaju @biswa-ct @gowtham-ct @rajesh-clear
+
+
